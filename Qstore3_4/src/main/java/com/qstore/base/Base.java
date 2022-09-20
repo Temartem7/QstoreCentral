@@ -85,9 +85,9 @@ public class Base {
 			e.getMessage();
 		}
 		// Jenkins config
-		String newImgString = "http://localhost:8080/job/ExtentReportJenkins/ws/ExtentReportDemo2/Screenshot/"
+		String newImgString = "http://localhost:8080/job/Qstore/ws/Qstore3_4/Screenshot/"
 				+ fileName + "_" + dateName + ".png";
-		return path;
+		return newImgString;
 	}
 
 	// extent report date and time

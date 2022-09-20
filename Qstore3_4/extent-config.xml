@@ -19,7 +19,7 @@
         <!-- report name - displayed at top-nav -->
         <reportName>Store Report
          <![CDATA[
-                <img src='C:\Users\shvet\eclipse-workspace\Qstore3_4\Logo\Qstore.png'/>
+                <img src='http://localhost:8080/job/Qstore/ws/Qstore3_4/Logo/Qstore.png'/>
             ]]>
         </reportName>
         
