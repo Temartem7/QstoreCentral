@@ -15,7 +15,9 @@ public class ExtentManager {
 	
 	
 	public static void setExtent() {
-		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/"+"ArtemReporting_"+Base.getCurrTime()+".html");
+		
+//		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/"+"ArtemReporting_"+Base.getCurrTime()+".html");
+		htmlReporter=new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/ExtentReport/"+"ExtRep.html");
 		
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir")+"/extent-config.xml");	
 //		htmlReporter.config().setDocumentTitle("Automation Test Report");
